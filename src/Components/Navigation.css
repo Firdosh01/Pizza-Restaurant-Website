@@ -1,0 +1,22 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.nav-container img{
+    height: 40px;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-container ul li{
+    margin:  0 10px;
+}
+.nav-container ul a{
+    color: black;
+    text-decoration: none;
+}
+
