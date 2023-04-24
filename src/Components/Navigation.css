@@ -19,4 +19,17 @@
     color: black;
     text-decoration: none;
 }
+.right-cartIcon{
+    display: flex;
+    background-color: #F59E0D;
+    border-radius: 20px;
+    padding: 3px 10px;
+    align-items: center;
+    color: black;
 
+}
+.right-cartIcon img{
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+}
