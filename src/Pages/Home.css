@@ -1,0 +1,31 @@
+
+.hero-section{
+    margin-top: 30px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-content h6{
+    font-size: 1rem;
+
+}
+.hero-left-content h1{
+    font-size: 3.5rem;
+
+}
+.hero-left-content button{
+    margin-top: 10px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #F59E0D;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .8s;
+}
+.hero-left-content button:hover{
+    background-color: hwb(38 3% 1%);
+}
