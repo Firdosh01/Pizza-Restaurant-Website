@@ -1,19 +1,33 @@
 import React from 'react'
+import FoodData from './FoodData'
+
 
 function Product() {
-    return (
-        <div className='productList'>
-            <img src="/images/peproni.png" alt="" />
-            <h2>Havbana Special</h2>
-            <p>Small</p>
 
-            <div className='rupeesText'>
-                <span>₹ 500</span>
-                <button>
-                    ADD
-                </button>
-            </div>
-        </div>
+    let ProductData = FoodData;
+    console.log(ProductData)
+
+    return (
+        <div className='flex'>
+        {
+            ProductData.map((productItem, productIndex) => {
+                return (
+                    <div style={{ width: '33%' }}>
+                        <div className='product-item'>
+                            <img src={productItem.url} width="100%" />
+                            <p>{productItem.name} | {productItem.category} </p>
+                            <p> {productItem.seller} </p>
+                            <p> Rs. {productItem.price} /-</p>
+                            <button
+                               
+                            >Add To Cart</button>
+                        </div>
+                    </div>
+                )
+            })
+        }
+    </div>
+
     )
 }
 

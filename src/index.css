@@ -8,5 +8,6 @@ body{
   margin: 0 auto;
   padding-inline: 20px;
   font-family: sans-serif;
+  overflow-x: hidden;
 
 }
