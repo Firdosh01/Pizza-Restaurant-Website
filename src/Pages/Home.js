@@ -10,7 +10,7 @@ function Home() {
         <div className='hero-container'>
 
             <div className='hero-left-content'>
-                <h6><em>Are you hungry</em></h6>
+                <h6><em>Festival is coming, Do Shopping !</em></h6>
                 <h1>Don't wait !</h1>
                 <button>Order Now</button>
             </div>

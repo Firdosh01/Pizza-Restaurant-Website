@@ -9,9 +9,7 @@ function Navigation() {
     <>
       <nav className='nav-container'>
         
-          <Link to="/">
-            <img src="/images/logo.png" alt="logo" />
-          </Link>
+            <h3>Shopping Cart</h3>
 
           <ul>
 
