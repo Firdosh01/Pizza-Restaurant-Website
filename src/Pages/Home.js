@@ -1,9 +1,11 @@
 import React from 'react'
 import './Home.css'
+import ProductList from '../Components/ProductList'
 
 
 function Home() {
   return (
+    <>
     <div className='hero-section'>
         <div className='hero-container'>
 
@@ -19,9 +21,17 @@ function Home() {
             
             </div>
 
-
         </div>
     </div>
+
+    <div>
+
+      <ProductList />
+
+    </div>
+
+
+    </>
   )
 }
 
