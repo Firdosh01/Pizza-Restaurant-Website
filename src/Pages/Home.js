@@ -17,8 +17,7 @@ function Home() {
 
             <div className='hero-right-img'>
 
-            <img src="/images/pizza.png" alt="pizza-img" />
-            
+            <img src="/images/Shopping.png" alt="Shopping-img" />            
             </div>
 
         </div>

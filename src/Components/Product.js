@@ -18,7 +18,7 @@ function Product() {
                             <p>{productItem.name} | {productItem.category} </p>
                             <p> {productItem.seller} </p>
                             <p> Rs. {productItem.price} /-</p>
-                            <button
+                            <button className='btn'
                                
                             >Add To Cart</button>
                         </div>
