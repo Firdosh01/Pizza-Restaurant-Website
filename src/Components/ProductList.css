@@ -71,3 +71,7 @@
     cursor: pointer;
     font-weight: bold;
 }
+.cc{
+    display: flex;
+    justify-content: space-between;
+}

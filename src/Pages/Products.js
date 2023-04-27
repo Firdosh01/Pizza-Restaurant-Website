@@ -1,10 +1,12 @@
 import React from 'react'
+import Product from '../Components/Product'
 
 function Products() {
   return (
     <div>
       
-        <span>This is Products Page</span>
+        <Product  />
+
       
     </div>
   )
